@@ -2,9 +2,11 @@ import React from 'react'
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
 import {JobKeywords} from '../../utils/SearchKeywords'
 import {LocationKeywords} from '../../utils/SearchKeywords'
+import { useNavigate } from 'react-router-dom';
 
 export default function SearchBar() {
 
+  const navigate = useNavigate();
   const searchableItemObj = JobKeywords.map((item, i) => ({
     id: i,
     name: item,
@@ -16,14 +18,9 @@ export default function SearchBar() {
       }));
   
 
-
-
   const formatResult = (item) => {
     return (
-      <>
-        {/* <span style={{ display: 'block', textAlign: 'left' }}>id: {item.id}</span> */}
         <span style={{ display: 'block', textAlign: 'left' }}>{item.name}</span>
-      </>
     )
   }
 
@@ -35,7 +32,9 @@ export default function SearchBar() {
 
   const searchJobHandler = () => {
     // dispatch(setSearchedQuery(query));
-    // navigate("/browse");
+    console.log("clicked searchJobHandler")
+
+    navigate("/browse");
   }
 
   return (
@@ -90,7 +89,7 @@ export default function SearchBar() {
 
       {/* Search Button */}
       <div className="px-4">
-        <button className="bg-blue-600 text-white py-2 px-6 rounded-full">
+        <button className="bg-blue-600 text-white py-2 px-6 rounded-full" onClick={searchJobHandler}>
           Search
         </button>
       </div>
@@ -98,24 +97,3 @@ export default function SearchBar() {
   </div>
   )
 }
-
-    // <div className='flex w-[40%] items-center gap-4 mx-auto'>
-    //   <div style={{ width: 1000 }}>
-    //     <ReactSearchAutocomplete
-    //       items={searchableItemObj}
-    //       onSearch={handleOnSearch}
-    //       // onHover={handleOnHover}
-    //       // onSelect={handleOnSelect}
-    //       // onFocus={handleOnFocus}
-    //       formatResult={formatResult} 
-    //     />
-    //      <ReactSearchAutocomplete
-    //       items={searchableItemObj}
-    //       onSearch={handleOnSearch}
-    //       // onHover={handleOnHover}
-    //       // onSelect={handleOnSelect}
-    //       // onFocus={handleOnFocus}
-    //       formatResult={formatResult}
-    //     />  
-    //   </div>
-    // </div>

@@ -1,67 +1,12 @@
 import React, { useEffect } from 'react'
 import Navbar from './shared/Navbar'
 import Job from './Job';
-import { useDispatch, useSelector } from 'react-redux';
-import { setSearchedQuery } from '@/redux/jobSlice';
-import useGetAllJobs from '@/hooks/useGetAllJobs';
 import SearchBar from './shared/SearchBar';
+import { allJobs } from '@/utils/JobsJson';
 
 // const randomJobs = [1, 2,45];
 
 const Browse = () => {
-    useGetAllJobs();
-    // const {allJobs} = useSelector(store=>store.job);
-    const dispatch = useDispatch();
-    useEffect(()=>{
-        return ()=>{
-            dispatch(setSearchedQuery(""));
-        }
-    },[])
-
-    
-    const allJobs= [
-        {
-            id:1,
-            company:{ name:"HR Nucleus",logo:"https://banner2.cleanpng.com/20190228/qby/kisspng-google-logo-google-account-g-suite-google-images-g-icon-archives-search-png-1713904157115.webp"},
-            title: "Nuerosurgeon",
-            description:"Some random description to show that we can show description section as well, multiline",
-            position:"Position",
-            jobType:"Hybrid",
-            salary:"1.5",
-            createdAt:"2024-10-22"
-        },
-        {
-            id:1,
-            company:{ name:"HR Nucleus",logo:"https://banner2.cleanpng.com/20190228/qby/kisspng-google-logo-google-account-g-suite-google-images-g-icon-archives-search-png-1713904157115.webp"},
-            title: "Nuerosurgeon",
-            description:"Some random description to show that we can show description section as well, multiline",
-            position:"Position",
-            jobType:"Hybrid",
-            salary:"1.5",
-            createdAt:"2024-10-22"
-        },
-        {
-            id:1,
-            company:{ name:"HR Nucleus",logo:"https://banner2.cleanpng.com/20190228/qby/kisspng-google-logo-google-account-g-suite-google-images-g-icon-archives-search-png-1713904157115.webp"},
-            title: "Nuerosurgeon",
-            description:"Some random description to show that we can show description section as well, multiline",
-            position:"Position",
-            jobType:"Hybrid",
-            salary:"1.5",
-            createdAt:"2024-10-22"
-        },
-        {
-            id:1,
-            company:{ name:"HR Nucleus",logo:"https://banner2.cleanpng.com/20190228/qby/kisspng-google-logo-google-account-g-suite-google-images-g-icon-archives-search-png-1713904157115.webp"},
-            title: "Nuerosurgeon",
-            description:"Some random description to show that we can show description section as well, multiline",
-            position:"Position",
-            jobType:"Hybrid",
-            salary:"1.5",
-            createdAt:"2024-10-22"
-        }
-
-];
 
     return (
         <div>

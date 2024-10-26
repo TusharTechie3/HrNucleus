@@ -1,16 +1,12 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'react-redux';
-import { setSearchedQuery } from '@/redux/jobSlice';
 import { useNavigate } from 'react-router-dom';
 import SearchBar from './shared/SearchBar';
 
 const HeroSection = () => {
     const [query, setQuery] = useState("");
-    const dispatch = useDispatch();
     const navigate = useNavigate();
 
     const searchJobHandler = () => {
-        dispatch(setSearchedQuery(query));
         navigate("/browse");
     }
 
