@@ -14,6 +14,7 @@ import AdminJobs from "./components/admin/AdminJobs";
 import PostJob from './components/admin/PostJob'
 import Applicants from './components/admin/Applicants'
 import ProtectedRoute from './components/admin/ProtectedRoute'
+import GlobalState from './context'
 
 
 const appRouter = createBrowserRouter([
@@ -76,7 +77,9 @@ function App() {
 
   return (
     <div>
-      <RouterProvider router={appRouter} />
+      <GlobalState> 
+        <RouterProvider router={appRouter} />
+      </GlobalState>
     </div>
   )
 }

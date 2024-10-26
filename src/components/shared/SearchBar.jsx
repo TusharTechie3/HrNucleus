@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useContext, useState } from 'react'
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
 import {JobKeywords} from '../../utils/SearchKeywords'
 import {LocationKeywords} from '../../utils/SearchKeywords'
 import { useNavigate } from 'react-router-dom';
+import { GlobalContext } from '@/context';
+import { Button } from '../ui/button';
 
 export default function SearchBar() {
-
+  const {setSearchObj}= useContext(GlobalContext)
   const navigate = useNavigate();
+  const [jobKeyword,setJobKeyword]= useState("");
+  const [locationKeyword,setlocationKeyword]= useState("");
+  const [error,setError]=useState(false);
+
   const searchableItemObj = JobKeywords.map((item, i) => ({
     id: i,
     name: item,
@@ -24,31 +30,34 @@ export default function SearchBar() {
     )
   }
 
-  const handleOnSearch = (string, results) => {
-    // onSearch will have as the first callback parameter
-    // the string searched and for the second the results.
-    console.log(string, results)
-  }
 
   const searchJobHandler = () => {
-    // dispatch(setSearchedQuery(query));
-    console.log("clicked searchJobHandler")
+    if(jobKeyword.trim()==""){
+      setError(true);
+    }else{
+      setSearchObj({
+        keyword: jobKeyword,
+        location: locationKeyword
+      })
+      navigate("/browse");
 
-    navigate("/browse");
+    }
   }
 
   return (
+    <div>
+    
     <div className="flex justify-center items-center w-full mt-6">
-    {/* Container for search bar */}
     <div className="flex items-center bg-white border border-gray-300 rounded-full shadow-md w-3/4 p-2">
       {/* Search for Keywords */} 
       <div className="flex-grow pl-4 border-e-2">
         <ReactSearchAutocomplete
           items={searchableItemObj}
-          onSearch={handleOnSearch}
+          // onSearch={handleOnSearch}
           showIcon={false}
           formatResult={formatResult}
-          // onSelect={handleOnSelect}
+          onSelect={(e)=>setJobKeyword(e.name)}
+          onSearch={(e)=>setJobKeyword(e)}
           autoFocus
           placeholder="Enter skills / designations / companies"
           styling={{
@@ -60,18 +69,19 @@ export default function SearchBar() {
             color: "#333",
             placeholderColor: "#999",
             borderRadius: "0",
+            zIndex:"10"
           }}
         />
-      </div>
+     </div>
 
       {/* Search for Location */}
       <div className="flex-grow pl-4">
         <ReactSearchAutocomplete
           items={locationItemObj}
-          onSearch={handleOnSearch}
           showIcon={false}
           formatResult={formatResult}
-          // onSelect={handleOnSelect}
+          onSelect={(e)=>setlocationKeyword(e.name)}
+          onSearch={(e)=>setlocationKeyword(e)}  
           placeholder="Enter location"
           styling={{
             position:"relative",
@@ -87,13 +97,27 @@ export default function SearchBar() {
         />
       </div>
 
-      {/* Search Button */}
       <div className="px-4">
-        <button className="bg-blue-600 text-white py-2 px-6 rounded-full" onClick={searchJobHandler}>
+        <Button className="bg-[#6A38C2] text-white py-2 px-6 rounded-full" onClick={searchJobHandler}>
           Search
-        </button>
+        </Button>
       </div>
     </div>
+    
+  </div>
+
+  {/* {error && <p  className="relative left-20"  style={{ color:"red", left:"-27rem"}}>You must enter a keyword</p>} */}
+     
   </div>
   )
 }
+
+
+
+// {
+//   position: relative;
+//   top: 13px;
+//   height: 0px;
+//   left: -215px;
+//   color: red;
+// }

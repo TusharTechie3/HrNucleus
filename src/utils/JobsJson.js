@@ -7,7 +7,8 @@ export const allJobs= [
         position:"Position",
         jobType:"Hybrid",
         salary:"1.5",
-        createdAt:"2024-10-22"
+        createdAt:"2024-10-22",
+        location:"Delhi"
     },
     {
         id:2,
