@@ -13,7 +13,7 @@ export const allJobs= [
     {
         id:2,
         company:{ name:"HR Nucleus",logo:"https://banner2.cleanpng.com/20190228/qby/kisspng-google-logo-google-account-g-suite-google-images-g-icon-archives-search-png-1713904157115.webp"},
-        title: "Nuerosurgeon",
+        title: "Cardiologist",
         description:"Some random description to show that we can show description section as well, multiline",
         position:"Position",
         jobType:"Hybrid",
@@ -23,7 +23,7 @@ export const allJobs= [
     {
         id:3,
         company:{ name:"HR Nucleus",logo:"https://banner2.cleanpng.com/20190228/qby/kisspng-google-logo-google-account-g-suite-google-images-g-icon-archives-search-png-1713904157115.webp"},
-        title: "Nuerosurgeon",
+        title: "Physician",
         description:"Some random description to show that we can show description section as well, multiline",
         position:"Position",
         jobType:"Hybrid",
@@ -33,7 +33,7 @@ export const allJobs= [
     {
         id:4,
         company:{ name:"HR Nucleus",logo:"https://banner2.cleanpng.com/20190228/qby/kisspng-google-logo-google-account-g-suite-google-images-g-icon-archives-search-png-1713904157115.webp"},
-        title: "Nuerosurgeon",
+        title: "Nurse",
         description:"Some random description to show that we can show description section as well, multiline",
         position:"Position",
         jobType:"Hybrid",
