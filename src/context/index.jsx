@@ -4,10 +4,17 @@ export const GlobalContext = createContext(null);
 
 function GlobalState({ children }) {
   const [searchObj, setSearchObj] = useState({});
+  const [latestJobs, setLatestJobs] = useState([]);
+  const [allJobs, setAllJobs] = useState([]);
   return (
     <GlobalContext.Provider
       value={{
-        searchObj, setSearchObj
+        searchObj,
+        setSearchObj,
+        latestJobs,
+        setLatestJobs,
+        allJobs,
+        setAllJobs,
       }}
     >
       {children}
