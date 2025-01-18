@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
-import { useNavigate } from "react-router-dom";
 import WhatsappLogo from "../assets/whatsapp1.webp";
 
 const Job = ({ job }) => {
-  const navigate = useNavigate();
+  // console.log(job)
+  const whatsappMessage= "Hi! I want to apply for "+ job?.title;
 
   const [isOpen, setIsOpen] = useState(false); // To manage the visibility of the popup
   const [formData, setFormData] = useState({
@@ -16,7 +16,9 @@ const Job = ({ job }) => {
 
   // Open or close the popup
   const togglePopup = () => {
-    setIsOpen(!isOpen);
+    // no poup for mvp
+    // setIsOpen(!isOpen);
+
   };
 
   // Handle form data changes
@@ -76,14 +78,22 @@ const Job = ({ job }) => {
       </div>
       <div className="flex items-center gap-4 mt-4">
         <Button
-          onClick={() => navigate(`/description/${job?._id}`)}
+          // onClick={() => navigate(`/description/${job?._id}`)}
           variant="outline"
         >
           Details
         </Button>
-        <Button className="bg-[#7209b7]" onClick={togglePopup}>
+        {/* <Button className="bg-[#7209b7]" onClick={togglePopup}>
           Apply
+          
+        </Button> */}
+
+        <a href={"http://wa.me/9650052111?text="+whatsappMessage}>
+        <Button className="bg-[#7209b7]" onClick={togglePopup}>
+                   Apply
         </Button>
+                  </a>
+        
       </div>
 
       {isOpen && (
