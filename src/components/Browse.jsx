@@ -26,7 +26,6 @@ const Browse = () => {
       return job.title?.toLowerCase().includes(lowerCaseKeyword);
     });
 
-    console.log("filtered result: ", filtered);
     // If location is provided, filter jobs that match both keyword and location
     if (searchObj?.location) {
       const jobsMatchingBoth = filtered.filter((job) =>
@@ -44,18 +43,16 @@ const Browse = () => {
     setSearchResult(filtered); // Update the filtered jobs state
   };
 
-  console.log(searchObj);
-
   return (
-    <div>
+    <div className="px-4">
       <Navbar />
       <SearchBar />
-      <div className="max-w-7xl mx-auto my-10">
-        <h1 className="font-bold text-xl my-10">
+      <div className="max-w-7xl mx-auto my-10 px-4 sm:px-6 md:px-8">
+        <h1 className="font-bold text-xl sm:text-2xl lg:text-3xl my-10">
           Search Results ({searchResult.length}) : {searchObj.keyword}
-          {searchObj.location && `, ${searchObj.location}`}{" "}
+          {searchObj.location && `, ${searchObj.location}`}
         </h1>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {searchResult.map((job, index) => {
             return <Job key={index} job={job} />;
           })}

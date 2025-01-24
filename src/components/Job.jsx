@@ -88,7 +88,7 @@ const Job = ({ job }) => {
           
         </Button> */}
 
-        <a href={"http://wa.me/9650052111?text="+whatsappMessage} target="_blank">
+        <a href={"http://wa.me/+919650052111?text="+whatsappMessage} target="_blank">
         <Button className="bg-[#7209b7]" onClick={togglePopup}>
                    Apply
         </Button>

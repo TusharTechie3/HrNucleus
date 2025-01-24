@@ -11,7 +11,7 @@ export const fetchCsv = async (url, setCsv) => {
   Papa.parse(csvText, {
     complete: (result) => {
       // Store the parsed data in the state
-      console.log("Parsed data: ", result.data);
+      // console.log("Parsed data: ", result.data);
       setCsv(result.data);
     },
     header: true,

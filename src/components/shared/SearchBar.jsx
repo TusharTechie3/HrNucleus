@@ -37,6 +37,7 @@ export default function SearchBar() {
         keyword: jobKeyword,
         location: locationKeyword,
       });
+      setError(false);
       navigate("/browse");
     }
   };

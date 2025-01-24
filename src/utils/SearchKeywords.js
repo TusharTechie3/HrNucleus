@@ -6,7 +6,7 @@ export const JobKeywords=[
     "Cardiologist",
     "GI Surgeon",
     "Neurosurgeon",
-    "Nephrologist",
+    "Nephroplogist",
     "Gastroenterologist",
     "Internal Medicine",
     "Radiologist",
