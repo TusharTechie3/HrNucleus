@@ -1,6 +1,5 @@
 import React, { useContext, useEffect } from "react";
 import Job from "./Job";
-import { allJobs } from "@/utils/JobsJson";
 import { GlobalContext } from "@/context";
 
 const LatestJobs = () => {

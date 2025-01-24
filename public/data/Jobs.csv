@@ -1,7 +1,70 @@
 title,location,description,position,jobType,salary,createdAt
-Neurosurgeon,Delhi,Some random description that states the job purpose,nuero,hybrid,20lpa,2024-10-22
-Cardio,Noida,Some random description that states the job purpose,Cardio,inoffice,not disclosed,2024-12-5
-Neurosurgeon,Delhi,Some random description that states the job purpose,nuero,hybrid,20lpa,2024-10-22
-Cardio,Noida,Some random description that states the job purpose,Cardio,inoffice,not disclosed,2024-10-26
-Neurosurgeon,Delhi,Some random description that states the job purpose,nuero,hybrid,20lpa,2024-10-22
-Cardio,Noida,Some random description that states the job purpose,Cardio,inoffice,not disclosed,2024-10-26
+Gynecologist,Bangalore,MD/DNB/DGO Gynecology. Experience - 0 to 2 yrs. Rotational Shifts. ,Registrar,Full Time,Negotiable,2025-01-18
+Pediatrician,Bangalore,MD/DNB/DCH Pediatrics. Experience - 0 to 2 yrs. Rotational Shifts. ,Registrar,Full Time,Negotiable,2025-01-18
+Gynecologist,Delhi NCR,MD/DNB/DGO Gynecology. Experience - 0 to 2 yrs. Rotational Shifts. ,Sr Resident,Full Time,Negotiable,2025-01-18
+Pediatrician,Delhi NCR,MD/DNB/DCH Pediatrics. Experience - 0 to 2 yrs. Rotational Shifts. ,Sr Resident,Full Time,Negotiable,2025-01-18
+Critical Care,Mumbai,MD/DNB/DA Anesthesia. Experience 0-2 yrs. Rotational Shifts,Clinical Assistant,Full Time,Negotiable,2025-01-18
+Critical Care,South Delhi,MD/DNB/DA Anesthesia. Experience 2-3 yrs. Rotational Shifts,Attending Consultant,Full Time,Upto 2.5 lacs,2025-01-18
+Anaesthesiologist,Mumbai,MD/DNB/DA Anesthesia. Experience 0-2 yrs. ,Clinical Assistant,Full Time,Negotiable,2025-01-18
+Anaesthesiologist,Navi Mumbai,MD/DNB Anesthesia . Experience -5-8 yr ,Consultant,Full Time,Negotiable,2025-01-18
+Anaesthesiologist,Warangal,MD/DNB Anesthesia . Experience - 3yr ,Consultant,Full Time,Negotiable,2025-01-18
+Cardiologist,South Delhi,DM/DNB Cardiology - 0-2 yrs,Associate Consultant,Full Time,Negotiable,2025-01-18
+GI Surgeon,South Delhi,MCH/DNB GI Surgery - 0-2 yrs,Associate Consultant,Full Time,Negotiable,2025-01-18
+Neurosurgeon,South Delhi,MCH/DNB Neurosurgery 0-2 yrs,Associate Consultant,Full Time,Negotiable,2025-01-18
+Nephrplogist,Hyderabad,DM/DNB Nephrology - 0-5 yrs,Consultant,Full Time,5 lacs,2025-01-18
+Cardiologist,Hyderabad,DM/DNB Cardiology - 0-5 yrs,Consultant,Full Time,5 lacs,2025-01-18
+Nephroplogist,Punjab,DM/DNB Nephrology - 0-5 yrs,Consultant,Full Time,5 lacs,2025-01-18
+Nephroplogist,Hisar,DM/DNB Nephrology - 0-5 yrs,Consultant,Full Time,5 lacs,2025-01-18
+Nephroplogist,Dhanbad,DM/DNB Nephrology - 0-5 yrs,Consultant,Full Time,5 lacs,2025-01-18
+Gastroenterologist,Hisar,DM/DNB Gastroenterology - 0-5 yrs,Consultant,Full Time,6 lacs,2025-01-18
+Gastroenterologist,Pune,DM/DNB Gastroenterology - 0-5 yrs,Consultant,Full Time,Negotiable,2025-01-18
+Gastroenterologist,Jalandhar,DM/DNB Gastroenterology - 0-5 yrs,Consultant,Full Time,Negotiable,2025-01-18
+Gastroenterologist,Warangal,DM/DNB Gastroenterology - 0-5 yrs,Consultant,Full Time,Negotiable,2025-01-18
+Gastroenterologist,Sagar,DM/DNB Gastroenterology - 0-5 yrs,Consultant,Full Time,Negotiable,2025-01-18
+Gastroenterologist,Gwalior,DM/DNB Gastroenterology - 0-5 yrs,Consultant,Full Time,Negotiable,2025-01-18
+Internal Medicine,Neemrana,MD/DNB Internal Medicine,Consultant,Full Time,4 lacs,2025-01-18
+Internal Medicine,Hansi Haryana,MD/DNB Internal Medicine,Consultant,Full Time,5 lacs,2025-01-18
+Internal Medicine,Jhujhunu,MD/DNB Internal Medicine,Consultant,Full Time,Negotiable,2025-01-18
+Internal Medicine,Mumbai,MD/DNB Internal Medicine,Clinical Assistant,Full Time,Negotiable,2025-01-18
+Gynecologist,South Delhi,MD/DNB/DGO Gynecology. Experience - 0 to 2 yrs. Day Shift. ,Sr Resident,Full Time,Negotiable,2025-01-18
+Radiologist,Gurgaon,MD/DNB/DMRD. II nd level USG must.,Consultant,Full Time,Negotiable,2025-01-18
+Radiologist,Kaushambhi Ghaziabad,MD/DNB/DMRD. Duty Timings 12pm - 8pm. CT/MRI/USG,Consultant,Full Time,Negotiable,2025-01-18
+Radiologist,Faridabad,MD/DNB/DMRD. Day Shift. CT/MRI/USG,SR/Attending Consultant,Full Time,Negotiable,2025-01-18
+General Surgeon,Mumbai,MS/DNB Gen Surgery . Exp -0-2yrs. Urology  Dept,Clinical Assistant,Full Time,Negotiable,2025-01-18
+General Surgeon,South Delhi,MS/DNB Gen Surgery . Exp -0-2yrs. Gensurgery or Neurosurgery Dept,Sr Resident,Full Time,1.4 lacs,2025-01-18
+General Surgeon,Central Delhi,MS/DNB Gen Surgery . Exp -0-2yrs. GI/Plastic Surgery/Onco Surgery ,Sr Resident,Full Time,1.75lacs,2025-01-18
+Orthopedic,Greater Noida,MS/DNB Ortho. Exp 0-2 yrs,Sr Resident,Full Time,1.5 lacs,2025-01-18
+Orthopedic,Faridabad,MS/DNB Ortho. Exp 3-4 yrs,Attending Consultant,Full Time,1.75 lacs,2025-01-18
+Cardiac Anesthesia,South Delhi,DM/DNB Cardiac Anesthesia. 0-2 yrs Exp,Associate Consultant,Full Time,Negotiable,2025-01-18
+Emergency Medicine,Faridabad,MD/DNB Emergency Medicine. 3yr exp,Consultant,Full Time,Negotiable,2025-01-18
+Emergency Medicine,Mumbai,MD/DNB/MEM/MRCEM 0-5 YR Exp,Consultant,Full Time,Negotiable,2025-01-18
+Emergency Medicine,Greater Noida,MD/DNB/MEM/MRCEM/DEM 0-5 YR Exp,SR/Attending Consultant,Full Time,Negotiable,2025-01-18
+Emergency Medicine,Warangal,MD/DNB/MEM/MRCEM/DEM 0-5 YR Exp,Consultant,Full Time,Negotiable,2025-01-18
+Emergency Medicine,Bhopal,MD/DNB/MEM/MRCEM/DEM 0-5 YR Exp,Consultant,Full Time,Negotiable,2025-01-18
+Interventional Radiologist,Punjab,MD/DNB /DM Interventional Radiology,Consultant,Full Time,5 lacs,2025-01-18
+Interventional Radiologist,Indore,MD/DNB /DM Interventional Radiology,Consultant,Full Time,5 lacs,2025-01-18
+Interventional Radiologist,Greater Noida,MD/DNB /DM Interventional Radiology,Consultant,Full Time,5 lacs,2025-01-18
+Urologist,Hisar,MCh/DNB Urology,Consultant,Full Time,Negotiable,2025-01-18
+Urologist,Warangal,MCh/DNB Urology,Consultant,Full Time,Negotiable,2025-01-18
+Gastro Surgeon,Amritsar,MCh/DNB G I Surgery. Experience  0-2 yrs,Consultant,Full Time,Negotiable,2025-01-18
+CTVS Surgeon,Bhopal,MCh Min 5 yr experience,Consultant,Full Time,Negotiable,2025-01-18
+Surgical Oncologist,Bhopal,MCh Min 10 yr experience,Consultant,Full Time,Negotiable,2025-01-18
+Surgical Oncologist,Punjab,MCh /DNB,Consultant,Full Time,Negotiable,2025-01-18
+Medical Oncologist,Hisar,DM/DNB Medical Oncology,Consultant,Full Time,Negotiable,2025-01-18
+Medical Oncologist,Punjab,DM/DNB Medical Oncology,Consultant,Full Time,Negotiable,2025-01-18
+Medical Oncologist,Mumbai,DM/DNB Medical Oncology,Consultant,Full Time,Negotiable,2025-01-18
+Plastic Surgeon,Punjab,MCh /DNB Plastic Surgery,Consultant,Full Time,Negotiable,2025-01-18
+Haematopathologist,North Delhi,DM/DNB Haematopathology or MD/DNB Pathology with fellowship,Consultant,Full Time,Negotiable,2025-01-18
+Pathologist,Kanpur,MD/DNB Pathology,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist,Patna,MS/DNB . Experience  Topical Phaco Must.,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist,Ranchi,MS/DNB . Experience  Topical Phaco Must.,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist,Sirsa,MS/DNB . Experience  Topical Phaco Must.,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist,Saharanpur,MS/DNB . Experience  Topical Phaco Must.,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist,Haldwani,MS/DNB . Experience  Topical Phaco Must.,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist,Bhubneshwer,MS/DNB . Experience  Topical Phaco Must.,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist  V R Surgeon,Gurgaon,MS/DNB .  VR Surgery,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist  V R Surgeon,Bhubneshwer,MS/DNB .  VR Surgery,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist  V R Surgeon,Patna,MS/DNB .  VR Surgery,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist  V R Surgeon,Ranchi,MS/DNB .  VR Surgery,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist  V R Surgeon,Ahmedabad,MS/DNB .  VR Surgery,Consultant,Full Time,Negotiable,2025-01-18
+Opthamologist  V R Surgeon,Vadodra,MS/DNB .  VR Surgery,Consultant,Full Time,Negotiable,2025-01-18

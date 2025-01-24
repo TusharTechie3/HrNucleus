@@ -36,7 +36,9 @@ const Navbar = () => {
             <div className='flex items-center justify-between mx-auto max-w-7xl h-16'>  
                 <div>
                     {/* <h1 className='text-2xl font-bold'>HR<span className='text-[#F83002]'>NUCLEUS</span></h1> */}
-                    <img src={Logo} style={{height:'50px'}}/>
+                    <a href="/">
+                        <img src={Logo} style={{height:'50px'}}/>
+                    </a>
                 </div>
               
                 <div className='flex items-center gap-12'>

@@ -103,7 +103,7 @@ export default function SearchBar() {
         </div>
       </div>
 
-      {/* {error && <p  className="relative left-20"  style={{ color:"red", left:"-27rem"}}>You must enter a keyword</p>} */}
+      {error && <p  style={{ color:"red"}}>You must enter a speciality</p>}
     </div>
   );
 }
